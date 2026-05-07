@@ -14,6 +14,7 @@ def load_profile():
         return None
 
 def detect_food_type(preferences):
+
     nonveg_items = [
         "chicken",
         "mutton",
@@ -23,7 +24,12 @@ def detect_food_type(preferences):
     ]
 
     for item in preferences:
-        if item.lower() in nonveg_items:
-            return "Non-Vegetarian"
+
+        item_lower = item.lower()
+
+        for nv in nonveg_items:
+
+            if nv in item_lower:
+                return "Non-Vegetarian"
 
     return "Vegetarian"
