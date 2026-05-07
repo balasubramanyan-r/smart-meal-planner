@@ -1,0 +1,124 @@
+dish_name,dish_type,meal_category,veg,region,ingredients,weekend_special,calories,protein,carbs,fat
+Idli,Main,Breakfast,True,Tamil Nadu,"rice:200g;urad dal:50g;salt:5g;water:500ml",False,180,6,35,1
+Dosa,Main,Breakfast,True,South India,"rice:200g;urad dal:50g;oil:20ml",False,220,6,38,5
+Masala Dosa,Main,Breakfast,True,South India,"rice:200g;potato:150g;oil:20ml",True,320,8,48,10
+Pongal,Main,Breakfast,True,Tamil Nadu,"rice:150g;moong dal:80g;ghee:20ml",False,300,10,40,10
+Rava Upma,Main,Breakfast,True,India,"rava:150g;onion:1;carrot:1",False,240,5,35,7
+Semiya Upma,Main,Breakfast,True,India,"vermicelli:150g;onion:1;beans:50g",False,230,5,37,6
+Poha,Main,Breakfast,True,India,"flattened rice:150g;onion:1;peas:50g",False,210,4,36,5
+Aval Upma,Main,Breakfast,True,South India,"aval:150g;onion:1;groundnut:30g",False,220,5,32,7
+Appam,Main,Breakfast,True,Kerala,"rice flour:200g;coconut milk:100ml",False,250,4,40,8
+Idiyappam,Main,Breakfast,True,Tamil Nadu,"rice flour:200g;coconut:50g",False,240,4,42,4
+Puttu,Main,Breakfast,True,Kerala,"rice flour:200g;coconut:80g",False,260,5,40,8
+Adai,Main,Breakfast,True,Tamil Nadu,"toor dal:50g;chana dal:50g;onion:1",False,280,12,32,8
+Kambu Koozh,Main,Breakfast,True,Tamil Nadu,"kambu flour:150g;curd:100ml",False,200,6,32,4
+Ragi Koozh,Main,Breakfast,True,Tamil Nadu,"ragi flour:150g;curd:100ml",False,210,6,34,3
+Chapati,Main,Breakfast,True,India,"wheat flour:200g",False,220,7,40,3
+Poori,Main,Breakfast,True,India,"wheat flour:200g;oil:50ml",True,340,6,42,15
+Parotta,Main,Breakfast,True,Tamil Nadu,"maida:250g;oil:40ml",True,420,7,55,18
+Aloo Paratha,Main,Breakfast,True,North India,"wheat flour:200g;potato:150g",True,360,8,50,12
+Paneer Paratha,Main,Breakfast,True,North India,"wheat flour:200g;paneer:100g",True,390,15,42,16
+Vegetable Sandwich,Main,Breakfast,True,India,"bread:4 slices;tomato:1;cucumber:1",False,250,8,32,8
+Bread Omelette,Main,Breakfast,False,India,"bread:4 slices;egg:2",False,320,15,28,14
+Egg Dosa,Main,Breakfast,False,South India,"dosa batter:250g;egg:2",False,340,16,35,12
+Chicken Sandwich,Main,Breakfast,False,India,"bread:4 slices;chicken:100g",False,360,20,30,14
+Oats Porridge,Main,Breakfast,True,India,"oats:100g;milk:200ml",False,220,8,32,5
+Cornflakes Milk,Main,Breakfast,True,India,"cornflakes:100g;milk:250ml",False,240,7,38,4
+Chutney,Side,Breakfast,True,South India,"coconut:100g;green chilli:2",False,120,2,8,9
+Coconut Chutney,Side,Breakfast,True,South India,"coconut:100g;green chilli:2",False,130,2,8,10
+Tomato Chutney,Side,Breakfast,True,South India,"tomato:3;onion:1",False,70,2,10,2
+Mint Chutney,Side,Breakfast,True,India,"mint leaves:1 bunch;coriander leaves:1 bunch",False,40,1,5,1
+Sambar,Gravy,Breakfast,True,South India,"toor dal:100g;drumstick:1;tomato:2",False,150,6,18,4
+Kurma,Gravy,Breakfast,True,South India,"carrot:1;beans:50g;coconut:50g",False,180,4,15,9
+Filter Coffee,Beverage,Breakfast,True,South India,"milk:200ml;coffee powder:10g",False,110,4,12,3
+Tea,Beverage,Breakfast,True,India,"milk:200ml;tea powder:10g",False,90,3,10,2
+Boost Milk,Beverage,Breakfast,True,India,"milk:250ml;boost:20g",False,160,6,20,4
+Rice,Main,Lunch,True,India,"rice:300g",False,350,6,75,1
+Jeera Rice,Main,Lunch,True,India,"rice:300g;jeera:10g",False,380,7,76,3
+Lemon Rice,Main,Lunch,True,South India,"rice:300g;lemon:1;groundnut:30g",False,420,8,65,12
+Tomato Rice,Main,Lunch,True,South India,"rice:300g;tomato:3",False,400,7,68,10
+Curd Rice,Main,Lunch,True,South India,"rice:250g;curd:200ml",False,330,8,52,8
+Tamarind Rice,Main,Lunch,True,South India,"rice:300g;tamarind:30g;groundnut:30g",False,430,7,70,12
+Vegetable Biryani,Main,Lunch,True,India,"rice:300g;carrot:2;beans:100g",True,520,10,78,16
+Mushroom Biryani,Main,Lunch,True,India,"rice:300g;mushroom:150g",True,500,12,75,15
+Paneer Biryani,Main,Lunch,True,India,"rice:300g;paneer:150g",True,580,18,74,20
+Baby Corn Biryani,Main,Lunch,True,India,"rice:300g;baby corn:150g",True,510,11,76,15
+Veg Fried Rice,Main,Lunch,True,India,"rice:300g;carrot:1;beans:50g",False,450,8,70,12
+Sambar Rice,Main,Lunch,True,South India,"rice:250g;toor dal:100g",False,420,12,60,8
+Bisibele Bath,Main,Lunch,True,Karnataka,"rice:200g;toor dal:80g;vegetables:200g",False,450,13,62,10
+Chapati,Main,Lunch,True,India,"wheat flour:250g",False,260,8,45,4
+Phulka,Main,Lunch,True,India,"wheat flour:200g",False,220,7,40,2
+Chicken Biryani,Main,Lunch,False,India,"rice:300g;chicken:200g",True,720,28,80,28
+Mutton Biryani,Main,Lunch,False,India,"rice:300g;mutton:200g",True,820,30,78,36
+Egg Fried Rice,Main,Lunch,False,India,"rice:300g;egg:2",False,520,18,68,16
+Fish Curry Rice,Main,Lunch,False,South India,"rice:250g;fish:200g",False,560,26,58,20
+Rasam,Gravy,Lunch,True,South India,"tomato:2;pepper:10g;garlic:5 cloves",False,70,2,8,2
+Mor Kuzhambu,Gravy,Lunch,True,Tamil Nadu,"curd:200ml;coconut:50g",False,180,4,12,10
+Kara Kuzhambu,Gravy,Lunch,True,Tamil Nadu,"onion:10;tomato:2",False,140,3,15,7
+Vatha Kuzhambu,Gravy,Lunch,True,Tamil Nadu,"tamarind:40g;onion:10",False,130,2,12,6
+Dal Tadka,Gravy,Lunch,True,India,"toor dal:120g;tomato:2",False,220,10,25,8
+Rajma Masala,Gravy,Lunch,True,North India,"rajma:150g;onion:2",False,260,12,30,8
+Chole Masala,Gravy,Lunch,True,North India,"chickpeas:150g;onion:2",False,280,11,32,9
+Paneer Butter Masala,Gravy,Lunch,True,India,"paneer:200g;tomato:3",True,420,18,14,32
+Mixed Veg Curry,Gravy,Lunch,True,India,"carrot:2;beans:100g;peas:100g",False,220,6,20,10
+Chicken Curry,Gravy,Lunch,False,India,"chicken:250g;onion:2",False,420,30,10,28
+Fish Curry,Gravy,Lunch,False,South India,"fish:250g;tomato:2",False,360,28,8,22
+Egg Curry,Gravy,Lunch,False,India,"egg:4;tomato:2",False,320,20,10,18
+Beans Poriyal,Side,Lunch,True,South India,"beans:250g;coconut:50g",False,150,4,14,8
+Carrot Poriyal,Side,Lunch,True,South India,"carrot:250g;coconut:50g",False,140,3,16,7
+Cabbage Poriyal,Side,Lunch,True,South India,"cabbage:300g;coconut:50g",False,130,3,14,6
+Beetroot Poriyal,Side,Lunch,True,South India,"beetroot:250g;coconut:50g",False,160,3,20,6
+Potato Fry,Side,Lunch,True,India,"potato:300g",False,240,4,34,10
+Ladies Finger Fry,Side,Lunch,True,India,"ladies finger:250g",False,170,3,16,8
+Brinjal Fry,Side,Lunch,True,India,"brinjal:250g",False,180,3,15,9
+Cauliflower Fry,Side,Lunch,True,India,"cauliflower:250g",False,160,4,14,8
+Paneer Fry,Side,Lunch,True,India,"paneer:150g",True,320,16,8,24
+Chicken 65,Side,Lunch,False,India,"chicken:200g",True,480,30,12,32
+Fish Fry,Side,Lunch,False,India,"fish:200g",True,420,28,6,28
+Egg Podimas,Side,Lunch,False,Tamil Nadu,"egg:4;onion:1",False,260,18,8,16
+Curd,Extra,Lunch,True,India,"curd:200ml",False,100,4,8,4
+Appalam,Extra,Lunch,True,India,"appalam:4",False,120,3,12,6
+Pickle,Extra,Lunch,True,India,"pickle:50g",False,40,1,4,2
+Onion Raita,Extra,Lunch,True,India,"curd:200ml;onion:2",False,120,4,10,5
+Boiled Egg,Extra,Lunch,False,India,"egg:2",False,140,12,2,10
+Kesari,Dessert,Lunch,True,South India,"rava:150g;sugar:100g",True,380,5,60,12
+Payasam,Dessert,Lunch,True,South India,"milk:500ml;vermicelli:100g",True,320,8,48,8
+Gulab Jamun,Dessert,Lunch,True,India,"gulab jamun mix:200g",True,420,6,62,14
+Chapati,Main,Dinner,True,India,"wheat flour:250g",False,240,8,42,3
+Parotta,Main,Dinner,True,Tamil Nadu,"maida:300g",True,420,7,55,18
+Phulka,Main,Dinner,True,India,"wheat flour:200g",False,220,7,40,2
+Dosa,Main,Dinner,True,South India,"rice:200g;urad dal:50g",False,220,6,38,5
+Adai,Main,Dinner,True,Tamil Nadu,"mixed dal:150g",False,280,12,32,8
+Vegetable Noodles,Main,Dinner,True,India,"noodles:200g;carrot:1;cabbage:100g",False,420,8,60,12
+Veg Fried Rice,Main,Dinner,True,India,"rice:250g;vegetables:200g",False,430,8,68,12
+Paneer Fried Rice,Main,Dinner,True,India,"rice:250g;paneer:150g",False,520,16,66,18
+Chicken Fried Rice,Main,Dinner,False,India,"rice:250g;chicken:150g",False,620,24,70,22
+Egg Dosa,Main,Dinner,False,South India,"dosa batter:250g;egg:2",False,340,16,35,12
+Chicken Kothu Parotta,Main,Dinner,False,Tamil Nadu,"parotta:3;chicken:150g",True,780,28,82,32
+Paneer Butter Masala,Side,Dinner,True,India,"paneer:200g;tomato:3",True,420,18,14,32
+Veg Kurma,Side,Dinner,True,South India,"carrot:2;beans:100g;coconut:50g",False,220,5,18,12
+Dal Fry,Side,Dinner,True,India,"toor dal:120g;onion:1",False,210,10,24,7
+Mushroom Masala,Side,Dinner,True,India,"mushroom:200g;onion:2",False,180,8,14,8
+Paneer Tikka Masala,Side,Dinner,True,India,"paneer:200g;capsicum:1",True,390,18,12,28
+Chicken Gravy,Side,Dinner,False,India,"chicken:250g;onion:2",False,420,30,10,28
+Egg Masala,Side,Dinner,False,India,"egg:4;tomato:2",False,320,20,10,18
+Fish Masala,Side,Dinner,False,India,"fish:250g;onion:2",False,360,28,8,22
+Sundal,Snacks,Snacks,True,Tamil Nadu,"chickpeas:200g;coconut:50g",False,210,9,24,8
+Masala Sundal,Snacks,Snacks,True,Tamil Nadu,"peas:200g;coconut:50g",False,220,8,26,8
+Bajji,Snacks,Snacks,True,India,"besan:200g;onion:2",True,340,8,30,18
+Bonda,Snacks,Snacks,True,India,"potato:200g;besan:150g",True,360,7,36,18
+Samosa,Snacks,Snacks,True,India,"potato:200g;maida:150g",True,380,6,40,20
+Murukku,Snacks,Snacks,True,South India,"rice flour:200g",False,420,5,58,18
+Mixture,Snacks,Snacks,True,India,"besan:150g;groundnut:50g",False,450,10,42,24
+Peanut Chikki,Snacks,Snacks,True,India,"groundnut:200g;jaggery:100g",False,320,10,28,14
+Fruit Salad,Snacks,Snacks,True,India,"apple:1;banana:2;grapes:100g",False,180,3,40,2
+Sprouts Salad,Snacks,Snacks,True,India,"green gram sprouts:200g;onion:1",False,160,10,22,2
+Boiled Corn,Snacks,Snacks,True,India,"sweet corn:200g",False,170,5,32,2
+Paneer Roll,Snacks,Snacks,True,India,"paneer:100g;chapati:2",False,340,14,28,14
+Chicken Roll,Snacks,Snacks,False,India,"chicken:100g;chapati:2",False,420,22,30,18
+Egg Puff,Snacks,Snacks,False,India,"egg:2;puff pastry:100g",True,390,12,28,22
+Tea,Beverage,Snacks,True,India,"milk:200ml;tea powder:10g",False,90,3,10,2
+Coffee,Beverage,Snacks,True,India,"milk:200ml;coffee powder:10g",False,100,4,12,3
+Badam Milk,Beverage,Snacks,True,India,"milk:250ml;badam:20g",False,180,7,16,8
+Lassi,Beverage,Snacks,True,India,"curd:300ml;sugar:20g",False,160,6,18,4
+Fresh Lime Juice,Beverage,Snacks,True,India,"lemon:2;sugar:20g",False,80,1,18,0
