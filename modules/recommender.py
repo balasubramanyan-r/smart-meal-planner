@@ -50,7 +50,9 @@ def choose_dish(
     dish_type,
     region,
     veg=True,
-    weekend=False
+    weekend=False,
+    avoid_list=None,
+    preferred_list=None
 ):
 
     filtered = recipes[
@@ -92,6 +94,71 @@ def choose_dish(
     if len(filtered) == 0:
         return None
 
+    # =================================================
+    # AVOID FILTER
+    # =================================================
+
+    if avoid_list:
+
+        for avoid_item in avoid_list:
+            avoid_item = avoid_item.strip().lower()
+
+            filtered = filtered[
+
+                ~(
+                        filtered["dish_name"]
+                        .fillna("")
+                        .str.lower()
+                        .str.contains(
+                            avoid_item,
+                            na=False
+                        )
+
+                        |
+
+                        filtered["ingredients"]
+                        .fillna("")
+                        .str.lower()
+                        .str.contains(
+                            avoid_item,
+                            na=False
+                        )
+                )
+            ]
+            
+    # =================================================
+    # PREFERRED FOOD BOOST
+    # =================================================
+
+    if preferred_list:
+
+        preferred_matches = filtered[
+            (
+                    filtered["dish_name"]
+                    + " "
+                    + filtered["ingredients"]
+            )
+            .str.lower()
+            .str.contains(
+                '|'.join(
+                    [
+                        p.lower()
+                        for p in preferred_list
+                    ]
+                ),
+                na=False
+            )
+        ]
+
+        if len(preferred_matches) > 0:
+
+            
+            if random.random() < 0.4:
+                filtered = preferred_matches
+
+    if len(filtered) == 0:
+        return None
+
     return random.choice(
         filtered.to_dict("records")
     )
@@ -101,7 +168,9 @@ def recommend_full_meal(
     meal_category,
     region,
     veg=True,
-    weekend=False
+    weekend=False,
+    avoid_list=None,
+    preferred_list=None
 ):
 
     meal = {}
